@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/new-york-extra-large');
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+
+/* FONTE PARA USAR EM TITULOS E SUB TITULOS */
+
+/* font-family: 'New York Extra Large', sans-serif;
+font-family: 'New York Large', sans-serif;
+font-family: 'New York Medium', sans-serif;
+font-family: 'New York Small', sans-serif; */
+
+/* ================================ */
+
+/* FONTE PARA USAR NO MENU E EM TEXTOS DE COMENTÁRIOS */
+
+/* font-family: 'SF Mono', sans-serif; */
+
+/* ================================ */
+
+:root{
+
+    --primary-color:#FFD900;
+    --text-color:#000;
+
+}
