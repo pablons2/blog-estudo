@@ -27,3 +27,235 @@ font-family: 'New York Small', sans-serif; */
     --text-color:#000;
 
 }
+
+
+.main-header{
+    position: fixed;
+    width: 100vw;
+    height: 10rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content:stretch;
+    top: 0;
+    z-index: 2;
+}
+
+.main-header >div{
+    padding-left: 8rem;
+    width: 100%;
+}
+
+.main-header >nav{
+    
+    padding-right: 8rem;
+}
+
+.main-header >nav>ul{
+    
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    
+
+
+}
+.main-header >nav>ul>li>a{
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color:#000;
+    
+}
+.main-header >nav>ul>li>a:hover{
+    color: var(--primary-color);
+    
+}
+
+.main-header >nav>ul>li>a:hover::after {
+    content: "";
+    display: block;
+    height: 4px; 
+    width: 100%; 
+    background-color: var(--primary-color);
+   
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 10rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.section1{
+    width: 64%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+}
+
+.section1>img{
+    width: calc(100% - 80px);
+}
+
+.section1>h1{
+    color: #000;
+    text-align: center;
+    font-family: New York Extra Large;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+.section1>span{
+    color: #000;
+    text-align: center;
+    font-family: SF Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 34px */
+}
+
+.section2{
+    width: 64%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#lista-de-artigos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.lista-de-artigos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+
+.lista-de-artigos>figcaption{
+    color: #000;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 26.4px */
+    
+    width: 60%;
+}
+.img-lista-de-artigos{
+    width: 304px;
+}
+
+
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: #000;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  
+}
+
+footer>header{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer>header>a{
+    text-decoration: none;
+}
+
+.link-footer-01{
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.link-footer-02{
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 300;
+    line-height: 28px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.link-footer-01:hover,.link-footer-02:hover{
+    color:var(--primary-color)
+}
+footer>div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    gap: 2rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer>div>nav{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+footer>div>nav>a{
+    color:#fff;
+    
+}
+
+footer>div>nav>a:hover{
+    color:var(--primary-color)
+    
+}

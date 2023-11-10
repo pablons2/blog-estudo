@@ -7,7 +7,7 @@ const artigos = [
     },
     {
         "img": `../static/imgs/img2.png`,
-        "sub": `Here are some things you should know regarding how we work`
+        "sub": `Granny gives everyone the finger, and other tips from OFFF Barcelona`
     },
     {
         "img": `../static/imgs/img3.png`,
@@ -53,7 +53,7 @@ const artigos = [
 
 
 const artigosHTML = artigos.map((item) => {
-    return `<div> <img src="${item.img}" alt="${item.sub}"> <sub>${item.sub}</sub></div>`;
+    return `<figure class="lista-de-artigos"> <img src="${item.img}" alt="${item.sub}" class="img-lista-de-artigos"> <figcaption>${item.sub}</figcaption></figure>`;
 });
 
 
