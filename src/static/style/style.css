@@ -164,6 +164,7 @@ h2{
     align-items: center;
     gap: 1rem;
     margin-bottom: 4rem;
+    
 }
 
 
@@ -180,6 +181,7 @@ h2{
 }
 .img-lista-de-artigos{
     width: 304px;
+    cursor: pointer;
 }
 
 
