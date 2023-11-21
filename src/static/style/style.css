@@ -119,6 +119,7 @@ font-family: 'New York Small', sans-serif; */
     font-weight: 700;
     line-height: 100%; 
 }
+
 .section1>span{
     color: #000;
     text-align: center;
@@ -259,5 +260,11 @@ footer>div>nav>a{
 
 footer>div>nav>a:hover{
     color:var(--primary-color)
+    
+}
+
+
+
+@media screen and (max-width:) {
     
 }

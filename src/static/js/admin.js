@@ -1,3 +1,4 @@
+
 var lista_de_artigos = document.getElementById('lista-de-artigos');
 
 const artigos = [
