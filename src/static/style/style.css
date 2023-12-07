@@ -31,13 +31,14 @@ font-family: 'New York Small', sans-serif; */
     position: fixed;
     width: 100vw;
     height: 10rem;
-    background-color: #a04747;
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content:stretch;
     top: 0;
     z-index: 2;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -259,8 +260,69 @@ footer>div>nav>a:hover{
     
 }
 
+.btn-toggle{
+    display: none;
+}
 
 
 @media screen and (max-width:768px) {
     
+    .main-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        
+        gap: 14rem;
+    }
+    .main-header>div{
+       
+    }
+    .btn-toggle{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.50rem;
+        background-color: #FFF;
+        border: none;
+        cursor: pointer;
+        transition-duration: 1s all;
+        
+    }
+    .btn-toggle:hover{
+        background-color:#eeebeb
+    }
+    .main-header>div{
+        width: 14rem;
+    }
+    .main-header>div>img{
+        width: 100%;
+    }
+    
+    .main-header >nav>ul{
+        display: none ;
+       
+    }
+
+    .menu-active{
+        position: fixed;
+        display: flex !important;
+        gap: 2rem;
+        list-style: none;
+        flex-direction: column;
+        margin: 0;
+        top: 5rem;
+        right: 32px;
+    }
+
+    #lista-de-artigos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 4rem;
+    }
 }

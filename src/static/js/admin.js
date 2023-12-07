@@ -61,3 +61,12 @@ const artigosHTML = artigos.map((item) => {
 lista_de_artigos.innerHTML = artigosHTML.join('');
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const btn_menu = document.querySelector('.btn-toggle'); 
+    const lista_menu = document.querySelector('#menu-active');
+
+    btn_menu.addEventListener("click", () => {
+        lista_menu.classList.toggle('menu-active');
+    });
+});
+
